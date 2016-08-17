@@ -11,7 +11,7 @@ public class Test1 extends StartSelenium {
 
     @Test
     public void search(){
-        pause(5000);
+        pause(4000);
         driver.findElement(By.xpath("//form//div//input[@class='searchInput']")).sendKeys("Whisky");
         driver.findElement(By.cssSelector("input[value=Szukaj]")).click();
         pause(2000);
